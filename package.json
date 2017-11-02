@@ -1,6 +1,6 @@
 {
-  "name": "html-loader",
-  "version": "0.5.1",
+  "name": "@yued/html-loader",
+  "version": "0.5.2",
   "author": "Tobias Koppers @sokra",
   "license": "MIT",
   "description": "html loader module for webpack",
@@ -36,7 +36,7 @@
     "should": "^10.0.0",
     "standard-version": "^4.2.0"
   },
-  "homepage": "http://github.com/webpack-contrib/html-loader",
+  "homepage": "https://github.com/yunkeCN/html-loader.git",
   "repository": {
     "type": "git",
     "url": "git@github.com:webpack/html-loader.git"
