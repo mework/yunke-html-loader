@@ -26,6 +26,10 @@ function getLoaderConfig(context) {
 module.exports = function(content) {
 	this.cacheable && this.cacheable();
 	var config = getLoaderConfig(this);
+	
+	// 新增逻辑：用于处理内容区域
+	if (typeof config.disposeContent === 'function') content = config.disposeContent(content);
+
 	var attributes = ["img:src"];
 	if(config.attrs !== undefined) {
 		if(typeof config.attrs === "string")
